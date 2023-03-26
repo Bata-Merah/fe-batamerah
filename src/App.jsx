@@ -5,10 +5,13 @@ import Detail from './View/Profile'
 import ChangePassword from './View/ChangePassword'
 import ForgotPassword from './View/ForgotPassword'
 import NewPassword from './View/NewPassword'
+import StartupList from './View/StartupList'
 import Home from './View/Home'
 import Profile from "./View/Profile";
 import EmailCode from "./View/EmailCode";
 import PasswordChanged from "./View/PasswordChanged";
+import CardDetail from "./View/CardDetail"
+import Activity from "./View/Activity"
 import { Routes, Route, HashRouter } from "react-router-dom";
 import React from "react";
 class App extends React.Component {
@@ -28,6 +31,9 @@ class App extends React.Component {
             <Route path="/EmailCode" element={<EmailCode />}/>
             <Route path="/NewPassword" element={<NewPassword />}/>
             <Route path="/PasswordChanged" element={<PasswordChanged />}/>
+            <Route path="/StartupList" element={<StartupList />}/>
+            <Route path="/CardDetail" element={<CardDetail />}/>
+            <Route path="/Activity" element={<Activity />}/>
             {/* <Route path="/ChangeEmail" element={<ChangeEmail />}/> */}
           </Routes>
         </HashRouter>

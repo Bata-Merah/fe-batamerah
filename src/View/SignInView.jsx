@@ -11,10 +11,10 @@ const SignIn = () => {
                 <h1 className='font-bold text-6xl'>Sign In</h1>
                 <h3 className='mb-4 mt-4 text-xl font-semibold'>Welcome Back, please enter your details</h3>
                 <form>
-                    <label for="email" className='font-bold text-xl'>Email</label><br/>
+                    <label htmlFor="email" className='font-bold text-xl'>Email</label><br/>
                     <input type="email" placeholder='andramartinez@gmail.com' className='rounded-md px-2 py-1 border-2 w-full flex justify-start border-black text-lg'></input>
                     <br/>
-                    <label for="password" className='font-bold text-xl'>Password</label><br/>
+                    <label htmlFor="password" className='font-bold text-xl'>Password</label><br/>
                     <input type="password" placeholder='*****' className='rounded-md px-2 py-1 border-2 w-full flex justify-start border-black text-lg'></input>
                     <Link to="/Home">
                         <button className='w-full mt-4 bg-Blue100 rounded-full text-white py-2 text-lg font-semibold'>Sign In</button>

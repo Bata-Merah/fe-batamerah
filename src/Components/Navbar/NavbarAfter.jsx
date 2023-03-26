@@ -21,9 +21,9 @@ function NavbarAfter(){
             </div> */}
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto font-bold mx-16">
                 <div className="lg:flex-grow text-md">
-                <Link to="#" className="block mt-4 lg:inline-block lg:mt-0 text-black mx-10">How It Works</Link>
-                <Link to="#" className="block mt-4 lg:inline-block lg:mt-0 text-black mx-10">Services</Link>
-                <Link to="#" className="block mt-4 lg:inline-block lg:mt-0 text-black mx-10">About</Link>
+                <Link to="#" className="block mt-4 lg:inline-block lg:mt-0 text-black mx-10">About Us</Link>
+                <Link to="/StartupList" className="block mt-4 lg:inline-block lg:mt-0 text-black mx-10">Startup List</Link>
+                <Link to="/Activity" className="block mt-4 lg:inline-block lg:mt-0 text-black mx-10">Activity</Link>
                 </div>
             </div>
             <div className="flex items-center">
