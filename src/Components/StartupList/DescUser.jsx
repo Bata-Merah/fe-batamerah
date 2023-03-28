@@ -1,6 +1,6 @@
 import React from "react"
 
-const DescUser = () => {
+const DescUser = (props) => {
     return(
         <div className="w-full">
             <p>

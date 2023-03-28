@@ -10,8 +10,9 @@ import Footer from "../Components/Footer/Footer";
 const Profile = () => {
     return (
         <>
+        <NavbarAfter />
             <div className="mx-24">
-                <NavbarAfter />
+                
                 <h1 className="font-bold text-3xl py-8 border-b-2">Settings</h1>
                 <div className="flex justify-start my-10">
                     <div className="flex flex-col w-[100vh] px-10 my-6">

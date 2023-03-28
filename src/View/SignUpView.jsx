@@ -75,13 +75,13 @@ const SignUp = () => {
           ></input>
 
           <p className="text-md mt-6">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
-          <Link to="/Home"><button className="w-full mt-4 bg-Blue100 rounded-full text-white py-2 text-lg font-semibold">
+          <Link to="/StartupList"><button className="w-full mt-4 bg-Blue100 rounded-full text-white py-2 text-lg font-semibold">
             Sign Up
           </button></Link>
           
         </form>
         <Link
-          to="/"
+          to="/StartupList"
           className="w-full my-4 rounded-full text-black py-2 text-lg font-semibold border-2 border-black text-center flex items-center justify-center "
         >
           <img src={Google} className="px-2 w-10"></img>

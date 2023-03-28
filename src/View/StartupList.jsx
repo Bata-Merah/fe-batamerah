@@ -16,13 +16,15 @@ const startupList = () => {
       }
     })
     .then((response) => {
-      console.log(response.data);
+      setLists(response.data);
+      // console.log(response);
     })
     .catch((error) => {
       console.error(error);
     });
   return (
     <>
+    {/* {console.log(lists)} */}
       <NavbarAfter />
       <div className="my-12 shadow-xl mx-24 rounded-2xl text-Blue80 bg-StartupList bg-cover h-[60vh]">
         <div className="flex justify-center items-start flex-col h-full pl-12 w-1/2">
@@ -65,12 +67,9 @@ const startupList = () => {
       </div>
 
       <div className="justify-center items-center flex flex-wrap">
-        {/* {lists.map((list)=>{
-          return( */}
-        <h1>tes</h1>
-        <Card title="tes" description="tes" />
-        {/* )
-        })} */}
+        {lists.map((list)=>(
+          <Card title={list.namaStartup} description={list.description} key={list.namaStartup}/>
+        ))}
       </div>
       <Footer />
     </>
