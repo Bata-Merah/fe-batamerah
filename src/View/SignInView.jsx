@@ -4,22 +4,23 @@ import { Link, useNavigate } from "react-router-dom";
 import Google from "../assets/Logo/Google.png";
 import React, { useEffect, useRef, useState } from "react";
 import AuthService from "../Components/Auth/AuthService";
+import axios from "axios";
+
 const SignIn = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+
   const handleSubmit = async (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
     try {
-      await AuthService.login(username, password).then(
-        ()=> {
-            navigate("/StartupList");
-            window.location.reload();
-        },
-        (error) => {
-            console.log(error);
-        }
-      );
+      const response = await axios.post("http://localhost:3000/login/user", {
+        username,
+        password,
+      });
+      console.log(response.data);
+      navigate("/StartupList");
+      window.location.reload();
     } catch (error) {
       console.error(error);
     }
