@@ -50,7 +50,7 @@ const startupList = () => {
 
       <div className="mx-24 py-10">
         <Link to="/" className="text-xl text-Blue80 font-semibold">
-          All
+          Al
         </Link>
         <Link to="/" className="text-xl text-Blue40 font-semibold ml-8">
           Food and Beverage
