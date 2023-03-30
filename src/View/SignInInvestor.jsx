@@ -31,7 +31,7 @@ const SignIn = () => {
       <img src={SignInPic} className="h-full"></img>
       <div className="flex flex-col justify-center mx-auto w-1/2 px-24">
         <img src={Logo3} className="w-24 mb-4"></img>
-        <h1 className="font-bold text-6xl">Sign In</h1>
+        <h1 className="font-bold text-5xl">Sign In as Investor</h1>
         <h3 className="mb-4 mt-4 text-xl font-semibold">
           Welcome Back, please enter your details
         </h3>

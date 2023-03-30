@@ -13,9 +13,9 @@ const DataTable = () => {
         </thead>
         <tbody>
             <tr className="font-semibold h-8 ">
-                <td scope="col" className="w-80 text-center">BrightHive</td>
-                <td scope="col" className="w-80 text-center">Jason Wong and Emily Chen</td>
-                <td scope="col" className="w-80 text-center">12 January 2023</td>
+                <td scope="col" className="w-80 text-center">The Daily Grind</td>
+                <td scope="col" className="w-80 text-center">Harper Moe</td>
+                <td scope="col" className="w-80 text-center">28 March 2023</td>
                 <td scope="col" className="w-80 text-center">
                     <button className="bg-yellow-400 text-white px-6 py-2 rounded-full my-2">Berlangsung</button>
                 </td>
@@ -29,8 +29,8 @@ const DataTable = () => {
                 </td>
             </tr>
             <tr className="font-semibold h-8 ">
-                <td scope="col" className="w-80 text-center">BrightHive</td>
-                <td scope="col" className="w-80 text-center">Jason Wong and Emily Chen</td>
+                <td scope="col" className="w-80 text-center">Helix Technology</td>
+                <td scope="col" className="w-80 text-center">Emily Chen</td>
                 <td scope="col" className="w-80 text-center">12 January 2023</td>
                 <td scope="col" className="w-80 text-center">
                     <button className="bg-red-600 text-white px-6 py-2 rounded-full my-2">Tidak Berhasil</button>

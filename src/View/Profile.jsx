@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarAfter from "../Components/Navbar/NavbarAfter";
 import Navigation from "../Components/Profile/Navigation";
-import ButtonNegative from "../Components/Assets/ButtonWarn";
+import LinkNegative from "../Components/Assets/LinkNegative";
 import ButtonGeneral from "../Components/Assets/ButtonGeneral"
 import HeaderProfile from "../Components/Profile/HeaderProfile"
 import photoProfileDummy from "../assets/photoProfileDummy.png";
@@ -16,8 +16,8 @@ const Profile = () => {
                 <h1 className="font-bold text-3xl py-8 border-b-2">Settings</h1>
                 <div className="flex justify-start my-10">
                     <div className="flex flex-col w-[100vh] px-10 my-6">
-                        <Navigation textNav="My Details" router="Detail"/>
-                        <Navigation textNav="Change Password" router="ChangePassword"/>
+                        <Navigation textNav="My Details" router="/Detail"/>
+                        <Navigation textNav="Change Password" router="/ChangePassword"/>
                         {/* <Navigation textNav="Change Email" router="ChangeEmail"/> */}
                     </div>
                     <div className="flex flex-col justify-start">
@@ -107,7 +107,7 @@ const Profile = () => {
                                 ></input>
                             </div>
                             <div className="flex justify-end w-full my-10">
-                                <ButtonNegative textButton="Logout"/>
+                                <LinkNegative TextLink="Logout" LinkTo="/" />
                             </div>
                         </form>
                         

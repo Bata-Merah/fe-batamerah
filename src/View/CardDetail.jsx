@@ -10,7 +10,7 @@ const CardDetail = (props) => {
     <>
       <NavbarAfter />
       <div className="mx-24 py-12">
-        <h1 className="font-bold text-4xl ">Helix Technologies</h1>
+        <h1 className="font-bold text-4xl ">The Daily Grind</h1>
         <YoutubeEmbeded embedId="rokGy0huYEA" />
         <div className="flex flex-row">
           <div className="w-[60vh]">
@@ -21,7 +21,7 @@ const CardDetail = (props) => {
                 <h3 className="text-Neutral50">Founders</h3>
               </div>
             </div>
-            <LinkGradient LinkTo="/" TextLink="Connect" />
+            <LinkGradient LinkTo="/Activity" TextLink="Connect" />
           </div>
           <DescUser/>
         </div>
